@@ -1,8 +1,11 @@
 # instapostingbot
 
-Posting working, soon i'll make actions
+What this script do?
+- It posts a picture on Instagram. Currently working in Brazil language, other app languages may not work correctly.
 
-Requirements:
-Configure chromedriver on your environment and install python packages: selenium and pyautogui
-
-Code is a little messy, i'll fix that soon :)
+How to use?
+1 - Create your virtual environment: virtualenv venv
+2 - Activate your virtual environment: venv/scripts/activate (On Windows, use this command: Set-ExecutionPolicy Unrestricted -scope process before)
+3 - Install packages: pip install -r requirements.txt
+4 - Script may need Chromedriver, download it and add to PATH environment variables.
+5 - Run script: python post.py
